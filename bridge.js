@@ -59,7 +59,7 @@ bridgeList.forEach(function(bridgeObject) {
     // todo - add a popup - see videos or leaflet docs
     //  example marker text "Tacoma Narrows Bridge, Tacoma, span is 1500M"
     let bridgeMarker = L.marker(bridgeCoordinates)
-    bridgeMarker.bindPopup('Hello?')  // todo change this text to text customized to this bridge 
+    bridgeMarker.bindPopup('Hello?')  // todo change this text to text customized to this bridge
     bridgeMarker.addTo(bridgeMap)
 })
 
